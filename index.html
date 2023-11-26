@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" http-equiv="X-UA-Compatible" content="IE=edge" name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"/>
+        <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+
+
+        <title>Développement durable - Mohamed KERRAZ</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <img src="./assets/images/favicon.png" alt="logo de la CNAF"/>
+                    </li>
+                    <input type="radio" value="accueil" id="accueil" name="nav">
+                    <label onclick="document.querySelector('.portail').scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'start' })" for="accueil" for="accueil">Accueil</label>
+                    
+                    <input type="radio" value="story" id="story" name="nav">
+                    <label onclick="document.getElementById('userstory').scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'start' })" for="story">User Story</label>
+                    
+                    <input type="radio" value="used" id="used" name="nav">
+                    <label onclick="document.getElementById('section2').scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'start' })"  for="used">Élement utilisée</label>
+
+                    <input type="radio" value="numeric" id="numeric" name="nav">
+                    <label onclick="document.getElementById('section3').scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'start' })"  for="numeric">Sobriété numérique</label>
+
+                    <input type="radio" value="2050" id="2050" name="nav">
+                    <label onclick="document.getElementById('section4').scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'start' })"  for="2050">Numérique 2050</label>
+                    
+                    <input type="radio" value="site" id="site" name="nav">             
+                    <label onclick="document.getElementById('section5').scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'start' })"  for="site">Conception de ce site</label>
+                </ul>
+
+                <div class="col-md-3 text-end"></div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="portail">
+                <h1>
+                    Mon Portail <span style="color: #008000"> Vert</span>
+                    
+                </h1>
+                <h2>
+                    Ensemble pour un Avenir Durable
+                </h2>
+                    <p>
+                        Explorez, agissez, changez. Bienvenue sur mon
+                        ÉcoPortail, mon hub où je présente ma vision durable
+                        du développement informatique
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container px-4 py-5">
+                
+                <section id="userstory">
+                    <h2 class="pb-2 border-bottom">User Story pour une  sobriété numérique </h2>
+              
+                    <div class="list-group">
+                        <div id="scenarios"></div>
+                    </div>
+                </section>
+                
+                <section id="section2">
+                    <h2 class="py-4 my-5 pb-2 border-bottom" >Les élements du cours utilisée au sein de mon alternance</h2>
+                    <div id="alternance"></div>  
+                </section>
+                
+                <section id="section3">
+                    <h2 class="py-4 my-5 pb-2 border-bottom" >La maturité de sobriété numérique de votre organisation</h2>
+                    <p class="text-start">
+                        La CNAF a implémenté diverses initiatives visant à combattre le gaspillage des ressources au sein de son entreprise. 
+                        Ces mesures comprennent l'installation de poubelles de tri, l'utilisation de lumières autonomes et l'application de restrictions de puissance dans les centres de données en fonction de la demande.
+                    </p>
+                    <p class="text-start">
+                        Pour approfondir ces efforts, il serait possible d'explorer des stratégies pour réduire le gaspillage alimentaire dans la cantine.
+                        La CNAF peut encourager les employés à adopter des pratiques éco-responsables via des séminaires afin d'avoir un lieu d'échange d'idée. J'avais eux l'exemple avec le refactoring sur python.
+                    </p>
+                </section>
+                
+            </div>
+            <section id="section4">
+                <div class="position-relative overflow-hidden text-center bg-body-tertiary ">
+                    <div class="numeric">
+                        <h2 class="display-3 fw-bold text-dark">Le numérique de 2050</h2>
+                        <h5 class="fw-normal text-muted mb-3">
+                            Depuis plus de deux décennies, le numérique occupe une place de plus en plus importante dans notre vie quotidienne, et il semble que cette tendance ne fera que s'accentuer à l'avenir, entraînant des transformations significatives dans notre relation avec la technologie
+                        </h5>
+                        <p>
+                            L'émergence récente de l'intelligence artificielle (IA) a déjà rendu cette technologie indispensable pour de nombreuses personnes. 
+                            Il est probable qu'à l'avenir, l'IA assumera des tâches redondantes et complexes de notre quotidien, améliorant ainsi notre productivité de manière significative.
+                        </p>
+                        <p>
+                            Une vie entièrement numérisée deviendra la norme, avec l'utilisation généralisée du cloud prenant en charge de nombreux aspects de notre quotidien. 
+                            Les photos, les documents administratifs, et même nos cartes d'identité seront entièrement numérisés, marquant la disparition progressive du support papier.
+                        </p>
+                        <p>
+                            Les avancées dans le domaine de la robotique joueront un rôle crucial dans divers secteurs, de l'industrie à la santé en passant par les services. 
+                            Les robots collaboratifs, déjà initiés par des entreprises comme Amazon, travailleront de concert avec les humains, améliorant l'efficacité et automatisant des tâches spécifiques.
+                        </p>
+                        <p>
+                            Une percée majeure dans le domaine médical sera observée, avec des dispositifs portables sophistiqués qui surveilleront en continu notre santé, fournissant des données en temps réel aux professionnels de la santé pour des diagnostics préventifs. 
+                            Les avancées en réalité virtuelle et augmentée pourraient également révolutionner les interventions médicales, comme évoqué par les propositions d'Elon Musk avec une puce permettant un suivi médical
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="section5">
+                <div class="px-4 pt-5 my-5 text-center">
+                    <div class="display-6 text-body-emphasis">
+                        La conception de ce site a été pensée de manière éco-responsable
+                    </div>
+                    <div class="col-lg-6 m-5 mx-auto text-start" style="padding-left: 5%;">
+                        <p><strong> JavaScript et JSON </strong> : Utilisation de fichiers JSON pour optimiser le JavaScript, réduisant ainsi la charge de la page.</p>
+                        <p><strong>Images optimisées</strong> : Réduction maximale de la taille des images pour minimiser la consommation de bande passante.</p>
+                        <p><strong>Palette de couleurs limitée</strong> : Adoption d'une palette restreinte avec un fond blanc et une couleur verte minimale pour réduire la consommation d'énergie.</p>
+                        <p><strong>Réutilisation de classes CSS</strong> :  Création de classes CSS favorisant la réutilisation pour minimiser la duplication de code.</p>
+                        <p><strong>Réutilisation d'images</strong> :  Utilisation d'images existantes plutôt que de créer de nouvelles ressources graphiques.</p>
+                        <p><strong>Palette de couleurs restreinte</strong> :  Limite de couleurs au noir, blanc et vert pour réduire la demande en ressources graphiques.</p>
+
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer>
+            <ul>
+                <li>©Copyright 2023 By KERRAZ Mohamed</li>
+                <li>Site éco-responsables</li>
+            </ul>
+            <span onclick="document.querySelector('.portail').scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'start' })" id="homeScroller">
+                <svg width="36" height="41" viewBox="0 0 36 41" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="15.5" y="5.5" width="5" height="35" rx="2.5"/>
+                    <rect x="14.504" y="4.22461" width="4.97447" height="24.4259" rx="2.48724" transform="rotate(-45 14.504 4.22461)"/>
+                    <rect x="17.9019" y="0.707107" width="4.97447" height="24.3171" rx="2.48724" transform="rotate(45 17.9019 0.707107)"/>
+                </svg>
+            </span>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
+    

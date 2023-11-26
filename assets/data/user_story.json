@@ -1,0 +1,32 @@
+{
+  "scenarios": [
+    {
+      "titre": "En tant qu'utilisateur de la solution SaaS",
+      "texte": "Je veux m'assurer que les scripts YAML et les Dockerfiles générés sont optimisés pour la consommation minimale des ressources, garantissant ainsi une utilisation efficiente des serveurs."
+    },
+    {
+      "titre": "En tant que responsable de la sécurité",
+      "texte": "Je veux m'assurer que la solution SaaS permet la configuration et l'application facile de règles de sécurité spécifiques, telles que l'utilisation obligatoire de matériel informatique approuvé pour le déploiement d'infrastructures."
+    },
+    {
+      "titre": "En tant qu'utilisateur",
+      "texte": "Je veux pouvoir suivre et visualiser l'impact environnemental de mes projets informatiques, y compris la consommation énergétique et les émissions de carbone associées."
+    },
+    {
+      "titre": "En tant que membre du personnel travaillant en télétravail",
+      "texte": "Je veux que la solution SaaS intègre des mécanismes de sécurité robustes, tels que l'utilisation d'un VPN avec des ordinateurs de travail dédiés, pour garantir un accès sécurisé aux ressources de l'entreprise."
+    },
+    {
+      "titre": "En tant qu'administrateur de la solution",
+      "texte": "Je veux avoir la possibilité de choisir des fournisseurs de services cloud qui respectent des normes environnementales strictes, contribuant ainsi à la sobriété numérique de l'ensemble du système."
+    },
+    {
+      "titre": "En tant que membre de l'équipe IT",
+      "texte": "Je veux m'assurer que la solution SaaS prend en charge des pratiques de développement durable, telles que la possibilité de mettre en pause ou d'arrêter automatiquement les ressources non utilisées."
+    },
+    {
+      "titre": "En tant qu'utilisateur",
+      "texte": "Je veux que la solution SaaS intègre des fonctionnalités de gestion des coûts et d'optimisation des ressources, contribuant ainsi à la sobriété financière du projet."
+    }
+  ]
+}

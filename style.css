@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+:root{
+    --font:'EB Garamond', serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: var(--font);
+}
+
+html,
+body {
+    height: 100vh;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+}
+
+header {
+    background: whitesmoke;
+}
+
+nav {
+    height: 100%;
+    position: relative;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+nav ul input[type="radio"] {
+    display: none;
+
+}
+
+nav ul input[type="radio"]+label {
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav ul input[type="radio"]:hover+label {
+    color: green;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+nav ul input[type="radio"]:checked+label {
+    font-size: 1.3rem;
+    color: green;
+}
+
+nav ul img {
+    width: 32px;
+}
+
+main {
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+}
+
+main div {
+    scroll-snap-align: center;
+}
+
+.portail{
+    margin: 17%;
+    text-align: center;
+}
+
+.portail h1{
+    font-weight: bold;
+    font-size: 6rem;
+    margin-bottom: 20px;
+}
+.portail h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.portail p{
+    color:rgb(93, 93, 93);
+    font-size: 1.5rem;
+    font-style: italic;
+}
+#alternance{
+    display:flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.citations {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid grey ;
+    border-radius: 5px;
+    position: relative;
+}
+
+.citations p:nth-of-type(1){
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.citations p:nth-of-type(2){
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+}
+
+
+.numeric{
+    display: grid;
+    grid-template: 
+        "title title"
+        "sum sum"
+        "p1 p2"
+        "p3 p4";
+        gap: 20px;
+    padding: 0;
+    margin: 0 100px;
+}
+
+.numeric *{
+    text-align: justify;
+}
+
+.numeric h2{
+    grid-area: title;
+    text-align: center;
+}
+.numeric h5{
+    grid-area: sum;
+}
+.numeric:nth-child(3){
+    grid-area: p1;
+}
+.numeric:nth-child(4){
+    grid-area: p2;
+}
+.numeric:nth-child(5){
+    grid-area: p3;
+}
+.numeric:nth-child(6){
+    grid-area: p4;
+}
+
+
+
+footer {
+    background: whitesmoke;
+    color: rgb(18, 18, 18);
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    margin: 0 10%;
+}
+
+footer span {
+    position: absolute;
+    bottom: 12.5%;
+    right:5%;
+    height:48px ; width: 48px;
+    background: rgb(232, 232, 232);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+}
+
+footer span svg {
+    fill: rgb(0, 0, 0);
+    width: 24px;
+    height: 24px;
+}
+footer span:hover {
+    transform: scale(110%);
+    background: rgb(59, 59, 59);
+}
+
+footer span:hover svg {
+    fill:darkgrey
+}
+
+a{
+    text-decoration: none;
+}

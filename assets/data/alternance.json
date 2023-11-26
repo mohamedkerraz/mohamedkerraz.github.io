@@ -1,0 +1,16 @@
+{
+  "alternance": [
+    {
+      "titre": "Écoconception de services numériques",
+      "texte": "La Cnaf particpe au refactoring de son code. j'ai pu participé à un exemple avec code Python, pour limiter les connexions aux bases de données et réduire les envois de messages inutiles aux serveurs"
+    },
+    {
+      "titre": "Optimisation des ressources informatiques",
+      "texte": "J'ai participé à des efforts visant à réduire notre empreinte environnementale, comme l'extinction des ordinateurs et des écrans le soir."
+    },
+    {
+      "titre": "Optimisation des images et du code CSS/JavaScript",
+      "texte": "J'ai amélioré les performances en supprimant les fichiers inutiles et en regroupant le CSS et le JavaScript, ce qui a réduit la taille des fichiers et la consommation de bande passante."
+    }
+  ]
+}
